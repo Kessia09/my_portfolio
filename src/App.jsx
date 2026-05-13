@@ -10,28 +10,32 @@ export default function Portfolio() {
       desc: "AI-powered accident detection system.",
       details: "ResQ uses machine learning and real-time data processing to detect accidents and alert emergency responders instantly. Built with a focus on performance and reliability.",
       img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-      github: "https://github.com/kessia09/resq"
+      github: "https://github.com/kessia09/resq",
+      live: "https://resq.vercel.app"
     },
     {
       title: "THE YOT",
       desc: "Restaurant ordering platform.",
       details: "A full-stack restaurant system enabling users to order food, manage menus, and handle payments efficiently. Designed for scalability and smooth UX.",
       img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
-      github: "https://github.com/kessia09/the-yot"
+      github: "https://github.com/kessia09/the-yot",
+      live: "https://theyot.vercel.app"
     },
     {
       title: "Assignment Platform",
       desc: "Student submission system.",
       details: "A platform where students submit assignments and instructors review them. Includes authentication, file uploads, and grading features.",
-      img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-      github: "https://github.com/kessia09/assignment-platform"
+      img: "images/submission.jpg",
+      github: "https://github.com/kessia09/assignment-platform",
+      live: "https://assignment-platform.vercel.app"
     },
     {
       title: "Vita",
       desc: "Digital mental health platform.",
       details: "Vita is a mental wellness platform offering journaling, mood tracking, and AI-driven insights to improve emotional well-being.",
-      img: "https://images.unsplash.com/photo-1493836512294-502baa1986e2",
-      github: "https://github.com/kessia09/vita"
+      img: "images/vita.jpg",
+      github: "https://github.com/kessia09/vita",
+      live: "https://vita-blush.vercel.app/"
     },
   ];
 
@@ -140,17 +144,27 @@ export default function Portfolio() {
             <h2 className="text-2xl font-bold mb-4">{activeProject.title}</h2>
             <p className="text-gray-400 mb-4">{activeProject.details}</p>
 
-            <a
-              href={activeProject.github}
-              target="_blank"
-              className="inline-block bg-white text-black px-4 py-2 rounded mt-2"
-            >
-              View on GitHub
-            </a>
+            <div className="flex gap-4 mt-4">
+              <a
+                href={activeProject.github}
+                target="_blank"
+                className="bg-white text-black px-4 py-2 rounded"
+              >
+                GitHub
+              </a>
+
+              <a
+                href={activeProject.live}
+                target="_blank"
+                className="border border-gray-500 px-4 py-2 rounded"
+              >
+                Live Demo
+              </a>
+            </div>
 
             <button
               onClick={() => setActiveProject(null)}
-              className="mt-4 block border border-gray-600 px-4 py-2 rounded"
+              className="mt-6 block border border-gray-600 px-4 py-2 rounded"
             >
               Close
             </button>
