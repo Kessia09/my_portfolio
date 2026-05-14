@@ -26,8 +26,7 @@ export default function Portfolio() {
       desc: "Student submission system.",
       details: "A platform where students submit assignments and instructors review them. Includes authentication, file uploads, and grading features.",
       img: "images/submission.jpg",
-      github: "https://github.com/kessia09/assignment-platform",
-      live: "https://assignment-platform.vercel.app"
+      github: "https://github.com/Kessia09/OnlineSubmissionSystem"
     },
     {
       title: "Vita",
