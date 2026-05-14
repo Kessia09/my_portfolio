@@ -25,14 +25,14 @@ export default function Portfolio() {
       title: "Assignment Platform",
       desc: "Student submission system.",
       details: "A platform where students submit assignments and instructors review them. Includes authentication, file uploads, and grading features.",
-      img: "images/submission.jpg",
+      img: "/images/submission.jpg",
       github: "https://github.com/Kessia09/OnlineSubmissionSystem"
     },
     {
       title: "Vita",
       desc: "Digital mental health platform.",
       details: "Vita is a mental wellness platform offering journaling, mood tracking, and AI-driven insights to improve emotional well-being.",
-      img: "images/vita.jpg",
+      img: "/images/vita.jpg",
       github: "https://github.com/kessia09/vita",
       live: "https://vita-blush.vercel.app/"
     },
@@ -54,7 +54,7 @@ export default function Portfolio() {
       <section className="grid md:grid-cols-2 min-h-[80vh]">
         <div className="relative">
           <img
-            src="images/my_image.jpg"
+            src="/images/my_image.jpg"
             className="w-full h-full object-cover grayscale"
           />
           <div className="absolute inset-0 bg-black/30" />
