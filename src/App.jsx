@@ -32,7 +32,7 @@ export default function Portfolio() {
       title: "Vita",
       desc: "Digital mental health platform.",
       details: "Vita is a mental wellness platform offering journaling, mood tracking, and AI-driven insights to improve emotional well-being.",
-      img: "/images/vita.jpg",
+      img: `${import.meta.env.BASE_URL}images/vita.jpg`,
       github: "https://github.com/kessia09/vita",
       live: "https://vita-blush.vercel.app/"
     },
