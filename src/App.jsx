@@ -11,7 +11,6 @@ export default function Portfolio() {
       details: "ResQ uses machine learning and real-time data processing to detect accidents and alert emergency responders instantly. Built with a focus on performance and reliability.",
       img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
       github: "https://github.com/kessia09/resq",
-      live: 
     },
     {
       title: "THE YOT",
